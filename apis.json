@@ -1,0 +1,261 @@
+{
+	"name": "Streadata.io API Gallery - Invitations",
+	"description": "This is a repository of invitations APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/invitations.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://invitations.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Box",
+			"x-api-slug": "box",
+			"description": "Box is changing how you manage content across your business from simple file sharing to building custom apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg",
+			"humanURL": "http://box.com",
+			"baseURL": "https:///",
+			"tags": "Invitations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/box/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
+			"tags": "Invitations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/facebook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fitbit",
+			"x-api-slug": "fitbit",
+			"description": "Find your fit with Fitbits family of fitness products that help you stay motivated and improve your health by tracking your activity, exercise, food, weight and sleep.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/200-fitbit.jpg",
+			"humanURL": "http://fitbit.com",
+			"baseURL": "https://api.fitbit.com//1",
+			"tags": "Invitations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/fitbit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Invitations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reddit",
+			"x-api-slug": "reddit",
+			"description": "Reddit is a community of millions of users engaging in the creation of content and the sharing of conversation across tens of thousands of topics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg",
+			"humanURL": "http://www.reddit.com",
+			"baseURL": "https:///",
+			"tags": "Invitations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/reddit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Classroom",
+			"x-api-slug": "google-classroom",
+			"description": "Google Classroom is mission control for your classes. As a free service for teachers and students, you can create classes, distribute assignments, send feedback, and see everything in one place. Instant. Paperless. Easy.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-classroom.png",
+			"humanURL": "https://classroom.google.com/",
+			"baseURL": "://classroom.googleapis.com//",
+			"tags": "Invitations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/google-classroom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Invitations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Invitations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Trello",
+			"x-api-slug": "trello",
+			"description": "Trusted by millions, Trello is the visual collaboration tool that creates a shared perspective on any project. Trello&rsquo;s boards, lists and cards enable you to organize and prioritize your personal and work life in a fun, flexible and rewarding way.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png",
+			"humanURL": "http://trello.com",
+			"baseURL": "https://trello.com//1",
+			"tags": "Invitations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/trello/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "uebermaps",
+			"x-api-slug": "uebermaps",
+			"description": "uebermaps is a platform for everyone to create and share maps with your favorite spots. uebermaps are interactive maps that enable people to collect interesting places, collaborate, upload photos and share your public or private maps with your friends and family. If you use uebermaps for your mapping community, as a tour guide for friends or as your unlimited geo storage is up to you.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png",
+			"humanURL": "http://uebermaps.com",
+			"baseURL": "https://uebermaps.com//api/v2",
+			"tags": "Invitations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/uebermaps/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LogMeIn",
+			"x-api-slug": "logmein",
+			"description": "LogMeIn, Inc. is a provider of software as a service and cloud-based remote connectivity services for collaboration, IT management and customer engagement, founded in 2003 and based in Boston, Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg",
+			"humanURL": "http://www.LogMeInInc.com",
+			"baseURL": "https://api.getgo.com//G2W/rest/organizers",
+			"tags": "Invitations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/logmein/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Starred",
+			"x-api-slug": "starred",
+			"description": "Better feedback for everyone, on a human scale. At Starred we like to work smart: working smarter to build great software, and working with smart companies who listen. As the feedback solution which puts the respondent first, we&rsquo;re empowering conversations between companies and their customers and employees. What&rsquo;s more, we equip them with the actionable insights they need to make better decisions and boost loyalty. With leading lights like Deliveroo, Heineken and Spotify already working with us to bring feedback to life, the road ahead for better feedback is looking good.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/starred-logo.png",
+			"humanURL": "https://www.starred.com",
+			"baseURL": "https://example.com//",
+			"tags": "Invitations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Invitations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Invitations",
+	"include": [
+		{
+			"name": "Box",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/box/apis.yaml"
+		},
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "Fitbit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/fitbit/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "Reddit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/reddit/apis.yaml"
+		},
+		{
+			"name": "Google Classroom",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/google-classroom/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Trello",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/trello/apis.yaml"
+		},
+		{
+			"name": "uebermaps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/uebermaps/apis.yaml"
+		},
+		{
+			"name": "LogMeIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/logmein/apis.yaml"
+		},
+		{
+			"name": "Starred",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/gig--crowd/apis.yaml"
+		}
+	]
+}

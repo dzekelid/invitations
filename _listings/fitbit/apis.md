@@ -8,11 +8,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/200-fitbit
 x-kinRank: "9"
 x-alexaRank: "2266"
 tags: Invitations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/fitbit/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Fitbit - Get User Friends Invitations.json
+  x-api-slug: userfriendsinvitations-json-get
+  description: Retrieve the list of invites to become freinds for a user in the format
+    requested.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/200-fitbit.jpg
+  humanURL: http://fitbit.com
+  baseURL: https://api.fitbit.com//1
+  tags: Sports, Excercise, Devices, Fitness, Wearables, Indie EdTech Data Jam, Stack,
+    Mobile, Technology, API Provider, , Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/fitbit/userfriendsinvitations-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/fitbit/userfriendsinvitations-json-get-openapi.md
 - name: Fitbit - Get User Friends Invitations.json
   x-api-slug: userfriendsinvitations-json-get
   description: Retrieve the list of invites to become freinds for a user in the format

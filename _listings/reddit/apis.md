@@ -7,11 +7,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddi
 x-kinRank: "9"
 x-alexaRank: "6"
 tags: Invitations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/reddit/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Reddit - Add Subreddit Accept Moderator Invite
+  x-api-slug: rsubredditaccept-moderator-invite-postnbsp
+  description: Accept an invite to moderate the specified subreddit.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/reddit/rsubredditaccept-moderator-invite-postnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/reddit/rsubredditaccept-moderator-invite-postnbsp-openapi.md
 - name: Reddit - Add Subreddit Accept Moderator Invite
   x-api-slug: rsubredditaccept-moderator-invite-postnbsp
   description: Accept an invite to moderate the specified subreddit.

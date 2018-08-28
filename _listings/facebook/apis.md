@@ -7,11 +7,26 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebo
 x-kinRank: "9"
 x-alexaRank: "3"
 tags: Invitations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/facebook/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Facebook - Get Event Invited
+  x-api-slug: eventinvited-get
+  description: All of the users who have been invited to this event
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/facebook/eventinvited-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/facebook/eventinvited-get-openapi.md
 - name: Facebook - Get Event Invited
   x-api-slug: eventinvited-get
   description: All of the users who have been invited to this event

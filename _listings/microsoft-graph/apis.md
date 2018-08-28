@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Invitations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/microsoft-graph/apis.md
 specificationVersion: "0.14"
 apis:
@@ -257,6 +257,66 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/microsoft-graph/groupsgroupiddriveitemsitemidinvite-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/microsoft-graph/groupsgroupiddriveitemsitemidinvite-post-openapi.md
+- name: Microsoft Graph API - Send A Sharing Invitation
+  x-api-slug: groupsgroupiddriveitemsitemidinvite-post
+  description: Send a sharing invitation Sends a sharing invitation for a DriveItem.
+    A sharing invitation provides permissions to the recipients and optionally sends
+    an email to the recipients to notify them the item was shared.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/microsoft-graph/groupsgroupiddriveitemsitemidinvite-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/microsoft-graph/groupsgroupiddriveitemsitemidinvite-post-openapi.md
+- name: Microsoft Graph API - Send A Sharing Invitation
+  x-api-slug: drivesdriveiditemsitemidinvite-post
+  description: Send a sharing invitation Sends a sharing invitation for a DriveItem.
+    A sharing invitation provides permissions to the recipients and optionally sends
+    an email to the recipients to notify them the item was shared.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/microsoft-graph/drivesdriveiditemsitemidinvite-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/microsoft-graph/drivesdriveiditemsitemidinvite-post-openapi.md
+- name: Microsoft Graph API - Send A Sharing Invitation
+  x-api-slug: driveitemsitemidinvite-post
+  description: Send a sharing invitation Sends a sharing invitation for a DriveItem.
+    A sharing invitation provides permissions to the recipients and optionally sends
+    an email to the recipients to notify them the item was shared.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/microsoft-graph/driveitemsitemidinvite-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/microsoft-graph/driveitemsitemidinvite-post-openapi.md
+- name: Microsoft Graph API - Send A Sharing Invitation
+  x-api-slug: medriveitemsitemidinvite-post
+  description: Send a sharing invitation Sends a sharing invitation for a DriveItem.
+    A sharing invitation provides permissions to the recipients and optionally sends
+    an email to the recipients to notify them the item was shared.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/microsoft-graph/medriveitemsitemidinvite-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/microsoft-graph/medriveitemsitemidinvite-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://messente.api.gallery.streamdata.io

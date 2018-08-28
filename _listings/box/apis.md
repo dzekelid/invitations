@@ -7,11 +7,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jp
 x-kinRank: "9"
 x-alexaRank: "445"
 tags: Invitations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/box/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Box - Get status of the invite
+  x-api-slug: invitesinvite-id-get
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/box/invitesinvite-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/box/invitesinvite-id-get-openapi.md
 - name: Box - Get status of the invite
   x-api-slug: invitesinvite-id-get
   description: ""

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Instructure
 x-complete: 1
@@ -15,4 +14,22 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /groups/{group_id}/invite:
+    post:
+      summary: Invite others to a group
+      description: Invite others to a group.
+      operationId: invite-others-to-a-group
+      x-api-path-slug: groupsgroup-idinvite-post
+      parameters:
+      - in: query
+        name: invitees[]
+        description: An array of email addresses to be sent invitations
+      responses:
+        200:
+          description: OK
+      tags:
+      - Groups
+      - Group
+      - Id
+      - Invite

@@ -13,8 +13,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "916588"
 tags: Invitations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/apis.md
 specificationVersion: "0.14"
 apis:
@@ -454,6 +454,115 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/sendinvitations-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/sendinvitations-post-openapi.md
+- name: Starred API - Send Single Invitation
+  x-api-slug: sendinvitations-post
+  description: |-
+    Instead of uploading a CSV file, you can also set one recipient per API call by using the following parameters to the URL.
+
+    ### Request Parameters
+
+    | Parameter | Required | Description |
+    | ------ | ------ | ------ |
+    | `form` | Required | ID of the form that will be sent out |
+    | `from` | Required | Email address of the sender, must be a registered email |
+    | `recipient` | Required | Email address of the recipient |
+    | `firstName` | Required | First name to address the recipient with |
+    | `lastName` | Required | Surname to address the recipient with |
+    | `template` | Required | Template ID |
+    | `language` | Required | The language of the template. For example: nl, en or fr |
+    | `reminder` | Optional | Whether or not to send a reminder (1 or 0). Defaults to 1 |
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/starred-logo.png
+  humanURL: https://www.starred.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, internet, Relative Data, Service API, Feedback, Stars
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/sendinvitations-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/sendinvitations-post-openapi.md
+- name: Starred API - Invitation Link CSV
+  x-api-slug: invitationlinkscsv-post
+  description: |-
+    Generate links for users from a CSV file.
+
+    **Request Parameters**
+
+    | Parameter | Required | Description |
+    | ------ | ------ | ------ |
+    | `form` | Required | ID of the form that will be sent out |
+    | `fromUserEmail` | Required | Email address of the sender |
+    | `file` | Required | A CSV file formatted as a regular invitation CSV added as a HTTP POST file. |
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/starred-logo.png
+  humanURL: https://www.starred.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, internet, Relative Data, Service API, Feedback, Stars
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/invitationlinkscsv-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/invitationlinkscsv-post-openapi.md
+- name: Starred API - Send Invitation CSV
+  x-api-slug: sendinvitationscsv-post
+  description: "With the /sendinvitations call you can link your CRM system to Starred
+    so invitations are sent automatically. This will no longer require any manual
+    action. \n\nYou can also import additional characteristics directly from your
+    CRM so you can start analyzing results for different client groups. \n\nThe parameters
+    on the right are mandatory to make the request succeed.\n\n### Request Parameters\n\n|
+    Parameter | Required | Description |\n| ------ | ------ | ------ |\n| `form` |
+    Required | ID of the form that will be sent out |\n| `from` | Required | Email
+    address of the sender, must be a registered email |\n| `template` | Required |
+    Template ID |\n| `language` | Required | The language of the template. For example:
+    nl, en or fr |\n| `file` | Required | A CSV file formatted as a regular invitation
+    CSV added as a HTTP POST file. |\n| `reminder` | Optional | Whether or not to
+    send a reminder (1 means On, 0 means Off). Defaults to 1 |\n\n### Example curl
+    request\n```\ncurl -F \"file=@testCSV.csv\" https://api.starred.com/sendinvitations\\?company\\={{companyID}}\\&auth\\={{auth}}\\&form\\={{formId}}\\&from\\={{sender}}\\&template\\={{templateId}}\\&language\\={{language}}\n```"
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/starred-logo.png
+  humanURL: https://www.starred.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, internet, Relative Data, Service API, Feedback, Stars
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/sendinvitationscsv-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/sendinvitationscsv-post-openapi.md
+- name: Starred API - Single Invitation Link
+  x-api-slug: invitationlinkssingle-post
+  description: "It is possible to generate a link to a Starred survey form of your
+    choice. \n\n**Request Parameters**\n\n| Parameter | Required | Description |\n|
+    ------ | ------ | ------ |\n| `form` | Required | ID of the form that will be
+    sent out |\n| `fromUserEmail` | Required | Email address of the sender |\n| `recipient`
+    | Required | Email address of the recipient |\n| `firstName` | Optional | First
+    name to address the recipient with |\n| `lastName` | Optional | Surname to address
+    the recipient with |\n| `tags` | Optional | Any number of invitation tags can
+    be listed. It is in key - value format, e.g. tag1=tag1 |"
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/starred-logo.png
+  humanURL: https://www.starred.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, internet, Relative Data, Service API, Feedback, Stars
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/invitationlinkssingle-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/invitationlinkssingle-post-openapi.md
+- name: Starred API - Anonymous Invitation Link
+  x-api-slug: invitationlinksanonymous-post
+  description: "Generate a link to a Starred survey form of your choice. \nGenerate
+    from 1 up to, and including 100 anonymous links. (Anonymous is for when the recipient's
+    email is not known)\n\n**Request Parameters**\n\n| Parameter | Required | Description
+    |\n| ------ | ------ | ------ |\n| `form` | Required | ID of the form that will
+    be sent out |\n| `fromUserEmail` | Required | Email address of the sender |\n|
+    `amount` | Optional | Amount of invitation links desired. (Defaults to 1) |\n|
+    `tags` | Optional | Any number of invitation tags can be listed. It is in key
+    - value format, e.g. tag1=tag1 |"
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/starred-logo.png
+  humanURL: https://www.starred.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, internet, Relative Data, Service API, Feedback, Stars
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/invitationlinksanonymous-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/invitations/master/_listings/starred/invitationlinksanonymous-post-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/starred-com
